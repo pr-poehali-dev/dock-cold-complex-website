@@ -89,7 +89,7 @@ function useInView(threshold = 0.15) {
 export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [formData, setFormData] = useState({ name: "", phone: "", cargo: "", message: "" });
+  const [formData, setFormData] = useState({ name: "", phone: "", cargo: "", date: "", message: "" });
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -756,6 +756,24 @@ export default function Index() {
                       fontFamily: "'Golos Text', sans-serif",
                     }}
                     placeholder="Мороженая рыба, 500 т"
+                  />
+                </div>
+                <div>
+                  <label className="text-xs tracking-wider section-title block mb-2" style={{ color: "var(--text-secondary)" }}>
+                    ДАТА ОПЕРАЦИИ
+                  </label>
+                  <input
+                    type="date"
+                    value={formData.date}
+                    onChange={(e) => setFormData({ ...formData, date: e.target.value })}
+                    className="w-full px-4 py-3 rounded-lg outline-none"
+                    style={{
+                      backgroundColor: "rgba(255,255,255,0.05)",
+                      border: "1px solid rgba(0,180,216,0.2)",
+                      color: formData.date ? "var(--text-primary)" : "var(--text-secondary)",
+                      fontFamily: "'Golos Text', sans-serif",
+                      colorScheme: "dark",
+                    }}
                   />
                 </div>
                 <div>
