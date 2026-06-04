@@ -132,10 +132,10 @@ export default function Index() {
             </div>
             <div>
               <div className="section-title font-bold text-sm tracking-widest" style={{ color: "var(--ice-blue)" }}>
-                ПРИЧАЛ №1
+                ООО «АСПЕРС»
               </div>
               <div className="text-xs" style={{ color: "var(--text-secondary)", fontFamily: "'Golos Text', sans-serif" }}>
-                ХОЛОДИЛЬНЫЙ КОМПЛЕКС
+                ПОРТОВО-ЛОГИСТИЧЕСКИЙ СЕРВИС
               </div>
             </div>
           </div>
@@ -235,9 +235,9 @@ export default function Index() {
             className="section-title font-bold mb-6 animate-fade-in-up"
             style={{ fontSize: "clamp(2.5rem, 7vw, 5.5rem)", lineHeight: 1.05, animationDelay: "0.2s", opacity: 0 }}
           >
-            МОРСКОЙ ПРИЧАЛ<br />
-            <span className="gradient-text">И ХОЛОДИЛЬНЫЙ</span><br />
-            КОМПЛЕКС
+            ООО «АСПЕРС»<br />
+            <span className="gradient-text">ПОРТОВО-ЛОГИСТИЧЕСКИЙ</span><br />
+            СЕРВИС
           </h1>
 
           <p
@@ -250,7 +250,7 @@ export default function Index() {
               lineHeight: 1.7,
             }}
           >
-            Комплексные логистические услуги по обработке и хранению грузов.<br />
+            Портово-логистические услуги с рефрижераторным хранением грузов.<br />
             Причал 155 м · Склад 6 000 т · Температура до −20°C
           </p>
 
@@ -856,10 +856,10 @@ export default function Index() {
               </div>
               <div>
                 <div className="section-title font-bold text-sm tracking-widest" style={{ color: "var(--ice-blue)" }}>
-                  ПРИЧАЛ №1
+                  ООО «АСПЕРС»
                 </div>
                 <div className="text-xs" style={{ color: "var(--text-secondary)" }}>
-                  ООО «Айс ДВ» · Владивосток
+                  Портово-логистический сервис · Владивосток
                 </div>
               </div>
             </div>
@@ -877,7 +877,7 @@ export default function Index() {
             </div>
 
             <div className="text-xs text-center" style={{ color: "var(--text-secondary)" }}>
-              © 2024 Причал №1 · Владивосток
+              © 2024 ООО «Асперс» · Владивосток
             </div>
           </div>
         </div>
