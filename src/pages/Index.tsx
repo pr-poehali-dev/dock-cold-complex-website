@@ -453,8 +453,8 @@ export default function Index() {
                   <Icon name="Snowflake" size={28} />
                 </div>
                 <div>
-                  <h3 className="section-title font-bold text-2xl">Холодильный склад</h3>
-                  <p className="text-sm" style={{ color: "var(--text-secondary)" }}>ООО «Айс ДВ»</p>
+                  <h3 className="section-title font-bold text-2xl">Холодильный комплекс</h3>
+                  <p className="text-sm" style={{ color: "var(--text-secondary)" }}>Рефрижераторное хранение</p>
                 </div>
               </div>
               <div className="divider-marine mb-6" />
@@ -560,7 +560,7 @@ export default function Index() {
             >
               <h3 className="section-title font-bold text-2xl mb-6 flex items-center gap-3">
                 <Icon name="Snowflake" size={24} style={{ color: "var(--ice-bright)" }} />
-                Холодильный склад
+                Холодильный комплекс
               </h3>
               <div className="space-y-4">
                 {[
