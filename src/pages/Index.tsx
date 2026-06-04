@@ -6,7 +6,7 @@ const HERO_IMAGE = "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf1
 const NAV_ITEMS = [
   { label: "О НАС", href: "#about" },
   { label: "УСЛУГИ", href: "#services" },
-  { label: "МОЩНОСТИ", href: "#capacity" },
+  { label: "ИНФРАСТРУКТУРА", href: "#capacity" },
   { label: "ГАЛЕРЕЯ", href: "#gallery" },
   { label: "КОНТАКТЫ", href: "#contacts" },
 ];
