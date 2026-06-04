@@ -800,6 +800,37 @@ export default function Index() {
 
               <div className="card-marine rounded-xl p-6">
                 <h3 className="section-title font-bold text-lg mb-4 flex items-center gap-2">
+                  <Icon name="Users" size={18} style={{ color: "var(--ice-blue)" }} />
+                  КОНТАКТНЫЕ ЛИЦА
+                </h3>
+                <div className="space-y-4">
+                  <div>
+                    <div className="text-xs tracking-wider section-title mb-1" style={{ color: "var(--text-secondary)" }}>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР</div>
+                    <div className="font-medium mb-1" style={{ color: "var(--text-primary)" }}>Варнакова Яна Владимировна</div>
+                    <a href="tel:+79025559187" className="flex items-center gap-2 text-sm transition-colors hover:opacity-80" style={{ color: "var(--ice-blue)" }}>
+                      <Icon name="Phone" size={14} />
+                      +7 (902) 555-91-87
+                    </a>
+                  </div>
+                  <div className="divider-marine" />
+                  <div>
+                    <div className="text-xs tracking-wider section-title mb-1" style={{ color: "var(--text-secondary)" }}>ЗАМЕСТИТЕЛЬ ГЕНЕРАЛЬНОГО ДИРЕКТОРА</div>
+                    <div className="font-medium mb-1" style={{ color: "var(--text-primary)" }}>Василевский Евгений Павлович</div>
+                    <a href="tel:+79147228429" className="flex items-center gap-2 text-sm transition-colors hover:opacity-80" style={{ color: "var(--ice-blue)" }}>
+                      <Icon name="Phone" size={14} />
+                      +7 (914) 722-84-29
+                    </a>
+                  </div>
+                  <div className="divider-marine" />
+                  <a href="mailto:aspersport@mail.ru" className="flex items-center gap-2 text-sm transition-colors hover:opacity-80" style={{ color: "var(--ice-blue)" }}>
+                    <Icon name="Mail" size={14} />
+                    aspersport@mail.ru
+                  </a>
+                </div>
+              </div>
+
+              <div className="card-marine rounded-xl p-6">
+                <h3 className="section-title font-bold text-lg mb-4 flex items-center gap-2">
                   <Icon name="Clock" size={18} style={{ color: "var(--ice-blue)" }} />
                   РЕЖИМ РАБОТЫ
                 </h3>
