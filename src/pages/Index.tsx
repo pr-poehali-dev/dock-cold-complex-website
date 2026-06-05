@@ -66,7 +66,7 @@ const ADVANTAGES = [
 const GALLERY_IMAGES = [
   { src: HERO_IMAGE, label: "Морской причал" },
   { src: ABOUT_IMAGE, label: "Причал №1" },
-  { src: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&q=80", label: "Холодильный комплекс" },
+  { src: "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/82b337e0-a53a-41c4-a769-6e002d24232e.JPG", label: "Холодильный комплекс" },
   { src: "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=800&q=80", label: "Причальная зона" },
   { src: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80", label: "Складской комплекс" },
   { src: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&q=80", label: "Перевалка грузов" },
