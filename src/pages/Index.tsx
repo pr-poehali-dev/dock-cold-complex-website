@@ -814,9 +814,10 @@ export default function Index() {
                   АДРЕС
                 </h3>
                 <p style={{ color: "var(--text-secondary)" }}>
+                  Приморский край<br />
                   г. Владивосток<br />
                   ул. Калинина 243<br />
-                  Причал №1, ПК
+                  Причал №1
                 </p>
               </div>
 
