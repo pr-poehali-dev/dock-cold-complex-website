@@ -65,7 +65,7 @@ const ADVANTAGES = [
 
 const GALLERY_IMAGES = [
   { src: HERO_IMAGE, label: "Морской причал" },
-  { src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80", label: "Грузовые операции" },
+  { src: ABOUT_IMAGE, label: "Причал №1" },
   { src: "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&q=80", label: "Холодильный комплекс" },
   { src: "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=800&q=80", label: "Причальная зона" },
   { src: "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80", label: "Складской комплекс" },
