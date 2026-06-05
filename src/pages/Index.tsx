@@ -567,7 +567,7 @@ export default function Index() {
               </h3>
               <div className="space-y-4">
                 {[
-                  { icon: "Archive", label: "Вместимость", value: "6 000 тонн" },
+                  { icon: "Archive", label: "Услуги/хранение", value: "Мясо/рыбопродукция" },
                   { icon: "Thermometer", label: "Температурный режим", value: "До −20°C (стабильно)" },
                   { icon: "Activity", label: "Мониторинг", value: "Датчики в каждой зоне, архивирование" },
                   { icon: "Bell", label: "Оповещения", value: "При отклонении температуры" },
