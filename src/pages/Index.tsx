@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/files/897d53b8-3668-4801-a4ec-a7bbe7e6818f.jpg";
+const ABOUT_IMAGE = "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/3ef15e3f-2aee-4d5b-affc-c904903f8dfd.JPG";
 
 const NAV_ITEMS = [
   { label: "О НАС", href: "#about" },
@@ -353,7 +354,7 @@ export default function Index() {
               style={{ animationDelay: "0.3s" }}
             >
               <div className="rounded-lg overflow-hidden" style={{ border: "1px solid rgba(0,180,216,0.2)" }}>
-                <img src={HERO_IMAGE} alt="Морской причал Владивосток" className="w-full h-80 object-cover" />
+                <img src={ABOUT_IMAGE} alt="Морской причал Владивосток" className="w-full h-80 object-cover" />
               </div>
               <div
                 className="absolute -bottom-6 -left-6 p-4 rounded-lg"
