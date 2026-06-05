@@ -894,15 +894,7 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="mt-8 rounded-xl overflow-hidden" style={{ border: "1px solid rgba(0,180,216,0.15)", height: "380px" }}>
-              <iframe
-                src="https://maps.2gis.com/2.0/demo?zoom=16&center=131.8952,43.1162&marker=131.8952,43.1162"
-                width="100%"
-                height="100%"
-                style={{ border: "none" }}
-                title="Карта 2GIS"
-              />
-            </div>
+
           </div>
         </div>
       </section>
