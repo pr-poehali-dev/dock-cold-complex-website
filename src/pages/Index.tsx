@@ -896,7 +896,7 @@ export default function Index() {
 
             <div className="mt-8 rounded-xl overflow-hidden" style={{ border: "1px solid rgba(0,180,216,0.15)", height: "380px" }}>
               <iframe
-                src="https://widgets.2gis.com/widget?type=firmsonmap&options=%7B%22pos%22%3A%7B%22lat%22%3A43.1162%2C%22lon%22%3A131.8952%2C%22zoom%22%3A16%7D%2C%22opt%22%3A%7B%22city%22%3A%22vladivostok%22%7D%2C%22org%22%3A%7B%22address%22%3A%22%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B0+243%22%7D%7D"
+                src="https://maps.2gis.com/2.0/demo?zoom=16&center=131.8952,43.1162&marker=131.8952,43.1162"
                 width="100%"
                 height="100%"
                 style={{ border: "none" }}
