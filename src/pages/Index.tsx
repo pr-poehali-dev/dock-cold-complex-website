@@ -471,7 +471,7 @@ export default function Index() {
               </div>
               <div className="grid grid-cols-2 gap-3 mt-6">
                 <div className="p-3 rounded-lg text-center" style={{ backgroundColor: "rgba(72,202,228,0.08)", border: "1px solid rgba(72,202,228,0.12)" }}>
-                  <div className="section-title font-bold" style={{ color: "var(--ice-bright)" }}>6 000 т</div>
+                  <div className="section-title font-bold" style={{ color: "var(--ice-bright)" }}>6 500 т</div>
                   <div className="text-xs" style={{ color: "var(--text-secondary)" }}>вместимость</div>
                 </div>
                 <div className="p-3 rounded-lg text-center" style={{ backgroundColor: "rgba(72,202,228,0.08)", border: "1px solid rgba(72,202,228,0.12)" }}>
