@@ -69,6 +69,7 @@ const GALLERY_IMAGES = [
   { src: "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/c0811243-c26c-4ea8-b72b-07dcc1f172eb.JPG", label: "Холодильный комплекс" },
   { src: "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/8b4ee58c-b081-409c-b443-56de08d1117e.JPEG", label: "Погрузо-разгрузочные работы" },
   { src: "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/c7d92d5b-4f0e-441a-965f-e69739c81fbf.JPG", label: "Причал №1" },
+  { src: "https://cdn.poehali.dev/projects/082f9bd9-ef07-46a9-b824-cf13f33f4888/bucket/0319921d-1149-4955-8c52-931c570924b4.JPG", label: "Причал №1" },
 
 ];
 
