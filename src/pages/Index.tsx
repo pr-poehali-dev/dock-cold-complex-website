@@ -91,6 +91,7 @@ function useInView(threshold = 0.15) {
 export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [lightbox, setLightbox] = useState<{ src: string; label: string } | null>(null);
   const [formData, setFormData] = useState({ name: "", phone: "", cargo: "", date: "", message: "" });
 
   useEffect(() => {
@@ -653,6 +654,7 @@ export default function Index() {
             {GALLERY_IMAGES.map((img, i) => (
               <div
                 key={i}
+                onClick={() => setLightbox(img)}
                 className={`relative overflow-hidden rounded-xl group cursor-pointer ${gallerySection.inView ? "animate-fade-in-up" : "opacity-0"}`}
                 style={{ animationDelay: `${i * 0.1}s`, border: "1px solid rgba(0,180,216,0.1)" }}
               >
@@ -933,6 +935,31 @@ export default function Index() {
           </div>
         </div>
       </footer>
+
+      {lightbox && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          style={{ backgroundColor: "rgba(0,0,0,0.9)" }}
+          onClick={() => setLightbox(null)}
+        >
+          <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
+            <button
+              onClick={() => setLightbox(null)}
+              className="absolute -top-10 right-0 text-white opacity-70 hover:opacity-100 transition-opacity"
+            >
+              <Icon name="X" size={28} />
+            </button>
+            <img
+              src={lightbox.src}
+              alt={lightbox.label}
+              className="w-full max-h-[80vh] object-contain rounded-xl"
+            />
+            <div className="text-center mt-3 section-title text-sm font-bold tracking-wide" style={{ color: "var(--ice-blue)" }}>
+              {lightbox.label}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
